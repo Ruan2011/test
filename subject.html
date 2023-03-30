@@ -1,0 +1,333 @@
+<html>
+
+<head>
+
+    <title>invetaishion for dart fun</title>
+
+
+</head>
+<body>
+<h1>Fill in</h1>
+
+    <form action="https://formsubmit.co/johanr.graaff@gmail.com" method="POST">
+
+
+               <div>
+    <label for="fname">first name:</label>  
+    <input type="text" id="fname" name="fname" placeholder="name" required>
+                </div>
+                <div>
+  <br>  <label for="lname">Last name:</label>
+    <input type="text" id="lname" name="lastname" placeholder="lastname" required>
+               </div>
+               <div>
+ <br>   <label for="email">email:</label>
+    <input type="email" id="email" name="email" placeholder="email" required>
+               </div>
+               <div>
+   <br> <label for="pass">password</label>
+    <input type="password" id="pass" name="pass" placeholder="password" maxlength="12" required> 
+              </div>
+             <div>
+   <br> <label for="phone">Phone #</label>
+    <input type="tel" id="phone" name="phone" placeholder="Phone" required>
+        </div>
+        <div>
+    <br><label>Gender:</label>
+    <label>male</label>   
+         <input type="radio" id="male" name="Gender" value="Gender">
+
+          <label>Female</label>
+          <input type="radio" id="Female" name="Gender" value="Gender">
+          </div>
+            <div>
+    <br>  <label for="bdate">birthday</label>
+          <input type="date" id="bdate" name="bdate">
+                </div>
+
+
+
+                <?php
+
+if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+    // Collect form data
+    $name = $_POST['Ruan'];
+    $email = $_POST['johanr.graaff@gmail.com'];
+    $message = $_POST['0832572026'];
+
+    // Set recipient email address
+    $to = 'johanr.graaff@gmail.com';
+
+    // Set email subject
+    $subject = 'info';
+
+    // Construct email message
+    $body = "Name: $name\nEmail: $email\nMessage: $message";
+
+    // Set email headers
+    $headers = "From: $email\r\n";
+    $headers .= "Reply-To: $email\r\n";
+
+    // Send email
+    if (mail($to, $subject, $body, $headers)) {
+        echo 'Thank you for contacting us!';
+    } else {
+        echo 'Sorry, an error occurred. Please try again later.';
+    }
+}
+
+?>
+
+    <div>
+        <br> <input type="submit" value="next">
+    </div>
+
+    <div>
+
+        <br> <input type="reset" value="back">
+    </div>
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+        </form>
+    </body>
+    </html>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
